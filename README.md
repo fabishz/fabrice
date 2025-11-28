@@ -203,7 +203,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Fabrice Ishimwe**
 
-- Portfolio: [Your Portfolio URL]
 - GitHub: [@fabishz](https://github.com/fabishz)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)
 - Email: fabricecoder009@gmail.com
