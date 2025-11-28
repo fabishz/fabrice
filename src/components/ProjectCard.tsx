@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { ExternalLink, Github } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import Link from "next/link";
 
 interface ProjectCardProps {
   id: string;
@@ -27,7 +27,6 @@ export const ProjectCard = ({
   featured,
   index,
 }: ProjectCardProps) => {
-  const navigate = useNavigate();
 
   return (
     <motion.div
@@ -35,9 +34,8 @@ export const ProjectCard = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className={`group relative overflow-hidden rounded-xl border bg-card transition-all hover:shadow-lg ${
-        featured ? "border-primary/50 shadow-md" : ""
-      }`}
+      className={`group relative overflow-hidden rounded-xl border bg-card transition-all hover:shadow-lg ${featured ? "border-primary/50 shadow-md" : ""
+        }`}
     >
       {featured && (
         <div className="absolute right-4 top-4 z-10">
@@ -66,8 +64,8 @@ export const ProjectCard = ({
         </div>
 
         <div className="flex flex-wrap gap-2">
-          <Button onClick={() => navigate(`/projects/${id}`)} className="flex-1">
-            View Details
+          <Button asChild className="flex-1">
+            <Link href={`/projects/${id}`}>View Details</Link>
           </Button>
           {github && (
             <Button variant="outline" size="icon" asChild>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -18,24 +19,24 @@ export const Footer = () => {
             <h3 className="mb-4 text-lg font-bold">Quick Links</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li>
-                <a href="/about" className="hover:text-primary">
+                <Link href="/about" className="hover:text-primary">
                   About Me
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/projects" className="hover:text-primary">
+                <Link href="/projects" className="hover:text-primary">
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog" className="hover:text-primary">
+                <Link href="/blog" className="hover:text-primary">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-primary">
+                <Link href="/contact" className="hover:text-primary">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
