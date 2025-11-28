@@ -39,7 +39,7 @@ export const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <NavLink to="/" className="text-xl font-bold">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              DevOps Engineer
+              Fabrice
             </span>
           </NavLink>
 

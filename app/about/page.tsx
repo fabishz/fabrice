@@ -32,7 +32,7 @@ export default function About() {
                         <h2 className="mb-6 text-3xl font-bold">Biography</h2>
                         <div className="space-y-4 text-lg text-muted-foreground">
                             <p>
-                                I'm a passionate engineer with over 7 years of experience building and scaling
+                                I am Fabrice Ishimwe, a passionate engineer with over 7 years of experience building and scaling
                                 cloud infrastructure, developing cross-platform mobile applications with React Native,
                                 and creating full-stack web applications that serve millions of users.
                             </p>
