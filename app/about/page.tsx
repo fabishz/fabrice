@@ -20,7 +20,7 @@ export default function About() {
             <div className="container mx-auto px-4">
                 <SectionHeading
                     title="About Me"
-                    subtitle="Senior Software Engineer & DevOps Engineer with 7+ years building scalable cloud infrastructure"
+                    subtitle="Senior Full Stack & Mobile Developer with 7+ years building scalable web applications, cross-platform mobile apps, and cloud infrastructure"
                 />
 
                 <div className="mx-auto max-w-4xl">
@@ -33,17 +33,18 @@ export default function About() {
                         <div className="space-y-4 text-lg text-muted-foreground">
                             <p>
                                 I'm a passionate engineer with over 7 years of experience building and scaling
-                                cloud infrastructure, automating deployment pipelines, and developing full-stack
-                                applications that serve millions of users.
+                                cloud infrastructure, developing cross-platform mobile applications with React Native,
+                                and creating full-stack web applications that serve millions of users.
                             </p>
                             <p>
                                 My journey began with software development, where I fell in love with creating
-                                elegant solutions to complex problems. As applications grew in scale, I naturally
-                                gravitated toward DevOps and cloud infrastructure, fascinated by the challenge of
-                                building systems that are reliable, scalable, and cost-effective.
+                                elegant solutions to complex problems. From building responsive web apps with React
+                                and Next.js to crafting seamless mobile experiences for iOS and Android, I've
+                                developed a comprehensive skill set across the entire development spectrum.
                             </p>
                             <p>
                                 Today, I specialize in architecting cloud-native solutions on AWS and GCP,
+                                developing production-ready mobile applications with React Native and Expo,
                                 implementing GitOps workflows with Kubernetes and ArgoCD, and building CI/CD
                                 pipelines that enable teams to ship features rapidly and confidently.
                             </p>

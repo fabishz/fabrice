@@ -14,6 +14,16 @@ export const skills = {
     { name: "Zustand", level: 85 },
     { name: "Redux", level: 85 },
   ],
+  mobile: [
+    { name: "React Native", level: 95 },
+    { name: "Expo", level: 90 },
+    { name: "TypeScript", level: 95 },
+    { name: "React Navigation", level: 90 },
+    { name: "Redux Toolkit", level: 85 },
+    { name: "Firebase", level: 85 },
+    { name: "iOS Development", level: 80 },
+    { name: "Android Development", level: 80 },
+  ],
   backend: [
     { name: "Node.js", level: 95 },
     { name: "Express", level: 90 },
@@ -50,18 +60,21 @@ export const skills = {
 export const experience = [
   {
     id: 1,
-    role: "Senior DevOps Engineer",
+    role: "Senior Full Stack & Mobile Developer",
     company: "TechCorp Global",
     duration: "2022 - Present",
-    description: "Leading cloud infrastructure and DevOps initiatives for enterprise-scale applications.",
+    description: "Leading full-stack web and mobile development, cloud infrastructure, and DevOps initiatives for enterprise-scale applications.",
     responsibilities: [
       "Architected and deployed microservices infrastructure on AWS EKS serving 10M+ users",
+      "Developed cross-platform mobile applications using React Native for iOS and Android",
+      "Built responsive web applications with Next.js and React serving millions of users",
       "Reduced deployment time by 75% through CI/CD pipeline optimization",
       "Implemented GitOps workflows using ArgoCD and Flux",
       "Built Infrastructure as Code using Terraform for multi-region deployments",
     ],
-    technologies: ["Kubernetes", "AWS", "Terraform", "ArgoCD", "GitHub Actions"],
+    technologies: ["React Native", "React", "Next.js", "TypeScript", "Kubernetes", "AWS", "Terraform", "ArgoCD", "GitHub Actions"],
     achievements: [
+      "Launched 3 mobile apps with 500K+ combined downloads",
       "Reduced infrastructure costs by 40% through resource optimization",
       "Achieved 99.99% uptime SLA",
       "Decreased incident response time by 60%",
@@ -147,6 +160,26 @@ export const projects = [
     github: "https://github.com",
     demo: "https://demo.example.com",
     featured: false,
+  },
+  {
+    id: "fitness-tracker-app",
+    title: "FitTrack - Fitness & Wellness App",
+    description: "Cross-platform mobile app for fitness tracking with workout plans, nutrition logging, and social features. Built with React Native and Firebase.",
+    image: "/placeholder.svg",
+    technologies: ["React Native", "Expo", "TypeScript", "Firebase", "Redux Toolkit", "React Navigation"],
+    github: "https://github.com",
+    demo: "https://apps.apple.com",
+    featured: true,
+  },
+  {
+    id: "ecommerce-mobile-app",
+    title: "ShopEase - E-commerce Mobile App",
+    description: "Feature-rich e-commerce mobile application with real-time inventory, secure payments, and personalized recommendations.",
+    image: "/placeholder.svg",
+    technologies: ["React Native", "TypeScript", "Stripe", "Firebase", "Redux", "Push Notifications"],
+    github: "https://github.com",
+    demo: "https://play.google.com",
+    featured: true,
   },
 ];
 

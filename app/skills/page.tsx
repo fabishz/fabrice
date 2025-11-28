@@ -10,7 +10,7 @@ export default function Skills() {
             <div className="container mx-auto px-4">
                 <SectionHeading
                     title="Skills & Technologies"
-                    subtitle="Comprehensive expertise across the full stack, from frontend to backend to cloud infrastructure"
+                    subtitle="Comprehensive expertise across web, mobile, backend, and cloud infrastructure"
                 />
 
                 <div className="mx-auto max-w-6xl space-y-12">
@@ -27,6 +27,15 @@ export default function Skills() {
                         <h2 className="mb-6 text-2xl font-bold">Frontend Development</h2>
                         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                             {skills.frontend.map((skill, index) => (
+                                <SkillCard key={skill.name} {...skill} index={index} />
+                            ))}
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2 className="mb-6 text-2xl font-bold">Mobile Development</h2>
+                        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                            {skills.mobile.map((skill, index) => (
                                 <SkillCard key={skill.name} {...skill} index={index} />
                             ))}
                         </div>
